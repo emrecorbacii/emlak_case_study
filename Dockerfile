@@ -18,6 +18,8 @@ RUN playwright install chromium --with-deps
 
 COPY . .
 
+RUN sed -i 's/\r//' /app/startup.sh && chmod +x /app/startup.sh
+
 EXPOSE 8888
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
