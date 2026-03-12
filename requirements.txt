@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+psycopg[binary]
+jupyterlab
+ipykernel
+SQLAlchemy
+nbconvert[webpdf]
