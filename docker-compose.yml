@@ -28,7 +28,7 @@ services:
     working_dir: /app
     ports:
       - "8888:8888"
-    command: ["/bin/bash", "/app/startup.sh"]
+    command: ["/bin/bash", "/startup.sh"]
 
 volumes:
   db_data:

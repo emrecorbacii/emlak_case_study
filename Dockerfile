@@ -18,7 +18,7 @@ RUN playwright install chromium --with-deps
 
 COPY . .
 
-RUN sed -i 's/\r//' /app/startup.sh && chmod +x /app/startup.sh
+RUN sed -i 's/\r//' /app/startup.sh && cp /app/startup.sh /startup.sh && chmod +x /startup.sh
 
 EXPOSE 8888
 
