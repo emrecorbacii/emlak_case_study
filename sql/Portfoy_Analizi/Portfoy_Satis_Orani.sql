@@ -11,5 +11,5 @@ SELECT
 FROM case_emlak.portfoy p
 LEFT JOIN case_emlak.islem i
        ON p.id = i.portfoy_id;
--- Tum portfoyler icinde herhangi bir isleme donusen portfoylerin oranini (%) hesaplar.
+-- Tum portfoyler icinde herhangi bir isleme donusen portfoylerin oranini yuzde olarak hesaplar.
 -- Genel portfoy satis verimliligi metrigini tek bir deger olarak sunar.

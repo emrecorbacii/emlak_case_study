@@ -42,5 +42,5 @@ GROUP BY
 ORDER BY islem_sayisi DESC;
 
 -- Referral ve cooperation kombinasyonlarina gore islem sayisi, ortalama brut tutar ve net komisyon hesaplar.
--- Referral: komisyondan %20 kesinti, Cooperation: komisyondan %50 kesinti uygulanir.
+-- Referral: komisyondan 0.20 kesinti, Cooperation: komisyondan 0.50 kesinti uygulanir.
 -- Brut tutarlar EUR=30, USD=25 kuruyla TL'ye cevrilerek hesaplanir.

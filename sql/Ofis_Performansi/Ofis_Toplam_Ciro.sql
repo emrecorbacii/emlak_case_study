@@ -24,6 +24,6 @@ WHERE i.islem_durumu ='tamamlandi'
 GROUP BY o.id, o.ad, o.adres
 ORDER BY toplam_net_ciro_tl DESC;
 -- Ofis bazinda toplam net ciroyu TL cinsinden hesaplar.
--- Net ciro: brut_islem_tutari * komisyon_orani - referral kesintisi (%20) - cooperation kesintisi (%50).
+-- Net ciro: brut_islem_tutari * komisyon_orani - referral kesintisi (0.20) - cooperation kesintisi (0.50).
 -- Fiyatlar EUR=30, USD=25 kuruyla TL'ye cevrilerek hesaplanir.
 -- Yalnizca tamamlandi durumundaki islemler dahildir.
